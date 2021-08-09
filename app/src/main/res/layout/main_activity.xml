@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+>
+
+	<TextureView
+		android:id="@+id/ttv_camera"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+	<TextureView
+		android:id="@+id/ttv_camera_result"
+		android:layout_width="142dp"
+		android:layout_height="217dp"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="0dp"
+		android:layout_marginTop="0dp"
+		android:layout_marginEnd="270dp"
+		android:layout_marginBottom="511dp" />
+
+	<Button
+		android:id="@+id/btn_set_shot_code"
+		android:layout_width="140dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="45dp"
+		android:layout_marginEnd="230dp"
+		android:layout_marginBottom="30dp"
+		android:text="Grabar Audio a Reconocer" />
+
+	<Button
+		android:id="@+id/btn_compare_shot_code"
+		android:layout_width="139dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="226dp"
+		android:layout_marginEnd="46dp"
+		android:layout_marginBottom="37dp"
+		android:text="Tomar Foto por Voz" />
+
+</RelativeLayout>
